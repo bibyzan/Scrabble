@@ -48,7 +48,7 @@ public class Tile extends Button implements Serializable {
 
     public void setGraphic() {
         try {
-            super.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("\\TileGraphics\\" + letter + ".png"))));
+            super.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("/TileGraphics/" + letter + ".png"))));
             super.setStyle("-fx-focus-color: transparent;-fx-faint-focus-color: transparent;");
             super.setBackground(null);
             super.setText("");

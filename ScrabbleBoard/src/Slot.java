@@ -43,7 +43,7 @@ public abstract class Slot extends Button {
 
     public void setGraphic(String pictureName) {
         try {
-            super.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("\\BoardSlotGraphics\\" + pictureName + ".png"))));
+            super.setGraphic(new ImageView(new Image(getClass().getResourceAsStream("/BoardSlotGraphics/" + pictureName + ".png"))));
             super.setStyle("-fx-focus-color: transparent;-fx-faint-focus-color: transparent;");
             super.setBackground(null);
             super.setText("");
