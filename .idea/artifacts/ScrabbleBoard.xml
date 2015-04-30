@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="ScrabbleBoard">
+    <output-path>$PROJECT_DIR$/out/artifacts/ScrabbleBoard</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="ScrabbleGUI" />
+        <option name="description" value="" />
+        <option name="htmlParamFile" value="" />
+        <option name="paramFile" value="" />
+        <option name="title" value="Scrabble" />
+        <option name="vendor" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="ScrabbleBoard.jar">
+        <element id="module-output" name="ScrabbleBoard" />
+      </element>
+    </root>
+  </artifact>
+</component>
